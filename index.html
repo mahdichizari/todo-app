@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لیست کارها</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>لیست کارهای من</h1>
+        <form id="task-form">
+            <label for="task-input" class="visually-hidden">افزودن کار جدید</label>
+            <input type="text" id="task-input" placeholder="کار جدید را وارد کنید..." required>
+            <button type="submit">افزودن</button>
+        </form>
+        <ul id="task-list">
+            <!-- لیست کارها اینجا نمایش داده می‌شود -->
+        </ul>
+        <p id="empty-message" class="hidden">هیچ کار ثبت نشده است</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
