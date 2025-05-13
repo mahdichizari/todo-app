@@ -77,3 +77,6 @@ function updateEmptyMessage() {
 
 // بارگذاری اولیه
 loadTasks();
+
+
+// JavaScript initialized
